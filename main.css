@@ -1,17 +1,17 @@
 body{ 
-background-color:rgba(255, 0, 0, 0.64);
+background-color:#FF5C5C;
 margin-top: 
 } 
 
 
 p{ 
-color:rgba(255, 255, 255, 0.53);
+color:#FEA9A9;
 position: fixed;
 padding-left: 350px; 
 } 
 
 h1{ 
-color: rgba(255, 255, 255, 0.58);
+color:#FEA9A9;
 position: fixed;
 padding-top: 500px;
 padding-left: 200px;
@@ -23,7 +23,7 @@ font-size: x-large;
 background-color: red;
 height:auto;
 width:auto;
-background-color: rgba(255, 255, 255, 0.48);
+background-color:#FEA9A9;
 }
 
 .nav ul {
@@ -46,5 +46,5 @@ transition: .5s background-color;
 }
 
 .nav li a:hover {
-background-color:rgba(255, 0, 0, 0.64);
+background-color:#FF5C5C;
 }
