@@ -1,7 +1,14 @@
+/* General CSS*/
+
 body{ 
 background-color:#FF5C5C;
 } 
 
+img {
+display: inline-block;
+float: right;
+height: 200px;
+}
 
 p{ 
 color:#FEA9A9;
@@ -10,13 +17,34 @@ padding-left: 350px;
 } 
 
 h1{ 
-color:white;
-position: fixed;
-padding-top: 500px;
-padding-left: 200px;
+color:black;
 font-family: sans-serif, fantasy;
 font-size: x-large;
 } 
+
+
+/*Content CSS*/
+
+@media screen and (min-width:1000px) {
+#content{ 
+width:50%; 
+}
+}
+
+@media screen and (max-width:1000px) {
+#content{ 
+width:75%; 
+}
+}
+
+#content{
+margin:auto;
+background-color:white;
+padding:20px;
+
+}
+
+/*NAVBAR CSS*/
 
 .nav {
 background-color: red;
