@@ -1,3 +1,8 @@
+/*
+http://stackoverflow.com/questions/14732707/two-iframes-a-menu-with-links-the-other-where-the-websites-appear-i-need-th
+*/
+
+
 <!DOCTYPE html>
 <html>
 
@@ -9,27 +14,24 @@
     </head>
     
 
-<body>
-
-<div class="header"> 
-
-<h1>Johan Hammarström</h1>
-<p>.</p>
-</div>
- 
+<body> 
  
  <div class="nav">
 	 <ul>
-          <li><a href="#">INFO</a></li>
+	      <li>Johan Hammarström</li>
+
+          <li><a href="info.html">INFO</a></li>
           
-          <li><a href="#">WORK</a></li>
+          <li><a href="work.html">WORK</a></li>
          
-          <li><a href="#">CONTACT</a></li>
-		  
-	 
+          <li><a href="/contact.html">CONTACT</a></li>
+          <li><a href="/work.html" target="iframecontent">open Google in iframe1</a></li>
 	 </ul>
 	 
 	 </div>
+
+ <iframe id="iframecontent" src="https://stureplan.se"></iframe>
+  <iframe id="iframe2" src="info.html"></iframe>
 
 
 </body>
