@@ -5,10 +5,27 @@ body{
 background-color:#FF5C5C;
 } 
 
-img {
+
+a:link {
+    color: #0033CC;
+}
+
+
+a:visited {
+    color: #FF7E5E;
+}
+
+
+a:hover {
+    color: #FF9999;
+
+}
+img{
 display: inline-block;
 float: right;
 height: 200px;
+padding:10px;
+
 }
 
 p{ 
@@ -23,6 +40,38 @@ font-family: sans-serif, fantasy;
 font-size: x-large;
 } 
 
+.imgWrap {
+  display: inline-block;
+float: right;
+height:500px;
+padding:30px;
+}
+
+
+.imgDescription {
+  display: inline-block;
+	float: right;
+	height: 188px;
+	width: 138px;
+	padding: 6px;
+  margin-top: 10px;
+  margin-left: 10px;
+ 
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+
+
+  visibility: hidden;
+  opacity: 0;
+
+  
+}
+
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
 
 /*Content CSS*/
 
