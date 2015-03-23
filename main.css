@@ -91,7 +91,9 @@ width:75%;
 margin:auto;
 background-color:white;
 padding:20px;
-
+min-height:300px;
+font-family: sans-serif;
+font-size: 15px;
 }
 
 /*NAVBAR CSS*/
